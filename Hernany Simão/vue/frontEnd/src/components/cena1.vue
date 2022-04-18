@@ -21,8 +21,8 @@
               <div class="col-md-1  mt-3 col-sm-2 col-2 ">
                <a href="#" class="link">Lorem</a>
               </div>
-              <div class="col-md-1 col-sm-2 col-3">
-                <button class="btn btn-primary botao">LOREM</button>
+              <div class="col-md-1 col-sm-2 col-3 ">
+                <button type="button" class="btn btn-outline-secondary botao ">LOREM</button>
               </div>
 
 
@@ -66,6 +66,8 @@ body {
 
 .botao{
   margin-top: 15%;
+  border-color: gray;
+  color: gray;
 }
 
 .link{
@@ -76,6 +78,7 @@ body {
 .ordem{
   margin-left: 40%;
 }
+
  
 
 </style>

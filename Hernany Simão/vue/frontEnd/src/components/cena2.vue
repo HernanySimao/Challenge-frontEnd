@@ -10,7 +10,7 @@
                       sit amet consectetur adipisicing elit. 
                       Atque quas recusandae laboriosam 
                       optio, eos at, iusto <br>
-                       <button class="mt-3 btn btn-outline-primary">Lorem</button>
+                       <button type="button" class="mt-3 btn btn-outline-secondary">Lorem</button>
                       </h6> 
                 </h1> 
                      
@@ -54,6 +54,7 @@ h1{
 }
 
 .img{
+  margin-top: 10px;
   width: 400px;
   height: 400px;
 }
