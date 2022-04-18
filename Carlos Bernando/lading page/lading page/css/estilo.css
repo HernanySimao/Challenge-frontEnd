@@ -1,0 +1,311 @@
+
+body{
+	background-color: #ffffff;
+	
+	font-family:serif;
+	}
+#primeira_seccao{
+	width: 100%;
+}
+#primeira_seccao img{
+	width:100%;
+}
+nav div.conteiner-fluid{
+	margin-left: 5rem;
+}
+@font-face{
+		font-family: myFont;
+		src= url(InputMono-Regular.woff);
+	}
+
+.btn-inf {
+	background-color: rgb(41,36,66);
+	border-color: white;
+	color: white;
+	padding: 0.5rem;
+	width: 10rem;
+}
+#text-zone {
+	background: rgb(41,36,66);
+	color: white;
+	text-align: center;
+	height: 22rem;
+	display: flex;
+	text-align: center;
+	width: 100%;
+
+}
+
+#text-zone .btn-inf {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	width: 8rem;
+}
+#text-zone article{
+	padding: 2px;
+	height: 100%;
+
+	width: 100%;
+}
+#text-zone h1{
+	font-size: 2rem;
+	margin-top: 3rem;
+}
+#text-zone p{
+	font-size: 0.5rem;
+
+}
+#text-zone hr {
+	display: none;
+}
+#section_Service{
+	margin-top: 6rem;
+	margin-left: ;
+	display: ;
+	margin-bottom: 4rem;
+}
+#section_Service  img{
+	background-color: #B0C4DE;
+	padding: 1.5rem;
+	width: 5rem;
+	border-radius: 50rem;
+	margin-bottom: 2rem;
+}
+#section_Service h3{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	margin-left: 2rem;
+	font-weight: bold;
+	text-align: center;
+	font-size: 2.8em;
+}
+.coluna {
+
+}
+
+#section_Service h2{
+	font-size: 1.3rem;
+	width:100%;
+	font-weight: bold;
+}
+#divRow {
+	width:100%;
+
+}
+#section_Service p{
+	font-size: 0.6rem;
+	width: 80%;
+	margin-left:;
+
+}
+#section3 {
+	background-color: rgb(41,36,66);
+	color: white;
+	text-align:center;
+	margin-left: 2%;
+	padding: 1rem;
+	width: 96%;
+	height: 15rem;
+
+
+}
+#section3 h1{
+	font-size: 1.5rem;
+	margin-top: 2.5rem;
+	width:100%;
+
+
+}
+#section3 button{
+	background-color: rgb(41,36,66);
+	border-color: white;
+	color: white;
+	padding: 0.2rem;
+	
+	margin-top: 3rem;
+	font-size:0.5rem;
+	width: 7rem;
+	height: 2rem;
+}
+
+
+
+#buttonNave {
+	border: 1px solid black;
+	font-weight: bold;
+}
+#linhaHorizonte {
+	border: 1% solid;
+	width:50%;
+}
+#section_Service #linhaHorizonte{
+	margin-left: 2%;
+}
+
+#bg_intro-right {
+	position:absolute;
+	left: 12rem;
+	top: 45rem;
+	height: 2rem;
+}
+footer ul{
+	font-size: 0.5rem;
+}
+footer article ul {
+	margin-top: 1rem;
+
+}
+
+footer article ul li{
+	margin-top: 1rem;
+
+}
+footer article#lasteArticleFooter {
+	margin-top: 4rem;
+	font-size: 0.5rem;
+
+}
+@media (min-width: 840px){
+	#primeira_seccao{
+		margin-top: 2rem;
+	}
+	#primeira_seccao img{
+		width: 35%;
+		height: 35rem;
+		position:absolute;
+		top: 16rem;
+		right: 5rem;
+	}
+	.navbar-nav {
+		margin-left: 25rem;
+		margin-top:2rem;
+	}
+	.navbar-brand {
+		margin-left: 2.3rem;
+		margin-top: 3rem;
+		width:5rem;
+		font-size: 2rem ;
+		font-weight: bold;
+	}
+
+	.btn-inf {
+	background-color: rgb(41,36,66);
+	border-color: white;
+	color: white;
+	padding: 0.5rem;
+	width: 10rem;
+	
+	}
+	
+	#bg_intro-right{
+		display:none;
+	
+	}
+	#section_Service {
+	width: 100%;
+	margin-top: 25%;
+	text-align: left;
+	padding: 2%;
+	}
+	#section_Service h3{
+		margin-right: 9rem;
+		display: inline;
+	}
+	 #linhaHorizonte{
+	display:inline;
+		float: left;
+	}
+	#text-zone p{
+		font-size: 11.8px;
+		float: left;
+
+		
+	}
+	#text-zone h1{
+		font-size: 3.6rem;
+		font-weight: bold;
+		float: left;
+	
+	}
+	
+	#text-zone{
+		height: 35em;
+		width:100%;
+		padding: 4rem;
+	}
+
+
+#text-zone article{
+	text-align:left;
+	width: 30rem;
+	margin-top: 1rem;
+	margin-left: 1.3rem;
+	
+	
+}
+#text-zone article hr{
+	width: 12rem;
+}
+.coluna{
+	text-align: left;
+	padding: 2rem;
+}
+.coluna img{
+	margin-bottom:2rem;
+
+}
+
+#section3 {
+	background-color: rgb(41,36,66);
+	color: white;
+	padding: 1rem;
+	width: 90%;
+	height: 15rem;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 5%;
+}
+#section3 h1{
+	text-align: left;
+	font-size: 2.5rem;
+	padding: 3rem;
+	font-weight: bold;
+	
+}
+
+#section3 button{
+	width: 11rem;
+	margin-left: 5%;
+	height: 3rem;
+	border-color: white;
+
+}
+
+#section_Redes_Sociais {
+	display: flex;
+	justify-content: space-between;
+	padding-left:5% ;
+	padding-right:5%;
+	margin-top: 5rem;
+}
+
+#section_Redes_Sociais h1 {
+	font-weight: bold;
+}
+#linhaHorizontal {
+	width:90%;
+	margin-left :5rem;
+}
+footer article{
+	margin-right: 8%;
+}
+
+footer article#lasteArticleFooter {
+	margin-top: 4rem;
+	font-size: 1rem;
+
+}
+ul{
+	list-style:none;
+}
+}
